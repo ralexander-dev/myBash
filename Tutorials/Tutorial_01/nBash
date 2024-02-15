@@ -1,0 +1,5 @@
+#!/bin/bash
+
+touch mod${1}.sh
+echo "#!/bin/bash" > mod${1}.sh
+nano mod${1}.sh
